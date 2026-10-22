@@ -1,1 +1,137 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lijo L V – Data Science &amp; ML Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2f4;--surface:#fff;--ink:#14232b;--muted:#51636d;--line:#cfd9de;--accent:#0a7a8f;--warn:#c2410c;--wave:#0a7a8f;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a20;--surface:#16252d;--ink:#e6eef2;--muted:#9bb0bb;--line:#2a3e49;--accent:#4cc3d9;--warn:#fb923c;--wave:#4cc3d9;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1a20;--surface:#16252d;--ink:#e6eef2;--muted:#9bb0bb;--line:#2a3e49;--accent:#4cc3d9;--warn:#fb923c;--wave:#4cc3d9;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.65 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","IBM Plex Sans",sans-serif;line-height:1.1;margin:0}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+nav{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;padding:1.1rem 0;font-weight:500}
+nav a{color:var(--muted);text-decoration:none}nav a:hover{color:var(--accent)}
+.hero{padding:2.5rem 0 3rem}
+.hero h1{font-size:clamp(3rem,10vw,6.5rem);font-weight:800;letter-spacing:-.03em}
+.role{font-size:clamp(1.1rem,2.6vw,1.5rem);color:var(--muted);margin:1rem 0 0;max-width:40rem}
+.scope{margin-top:2rem;background:var(--surface);border:1px solid var(--line);border-radius:.5rem;overflow:hidden}
+.scope canvas{display:block;width:100%;height:150px}
+.scope-bar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;justify-content:space-between;padding:.6rem .9rem;border-top:1px solid var(--line);font-size:.9rem;color:var(--muted)}
+.scope-bar button{font:inherit;font-weight:600;padding:.4rem .9rem;border-radius:.35rem;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.scope-bar button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.75rem}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:.4rem;font-weight:600;text-decoration:none;border:2px solid var(--accent)}
+.btn.p{background:var(--accent);color:var(--bg)}
+section{padding:3rem 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:1.5rem}
+.cols{display:grid;gap:2rem;grid-template-columns:1fr}
+@media(min-width:760px){.cols{grid-template-columns:1fr 1fr}}
+.skill{margin:0 0 1.1rem}.skill b{display:block;font-weight:600}.skill span{color:var(--muted)}
+.proj{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:.4rem;padding:1.5rem;margin-bottom:1.5rem}
+.proj h3{font-size:1.5rem;margin-bottom:.75rem}
+.proj ul,.job ul{margin:.5rem 0 0;padding-left:1.1rem}.proj li,.job li{margin-bottom:.45rem}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem}
+.tags span{font-size:.85rem;padding:.15rem .6rem;border:1px solid var(--line);border-radius:99px;color:var(--muted)}
+.job h3{font-size:1.3rem}.meta{color:var(--muted);margin:.2rem 0 .5rem}
+.certs{padding:0;list-style:none;margin:0}.certs li{padding:.6rem 0;border-bottom:1px solid var(--line)}
+footer{padding:2.5rem 0 3rem;border-top:1px solid var(--line);color:var(--muted)}
+footer a{font-weight:500}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+<h1>Lijo L V</h1>
+<p class="role">Electrical and Electronics Engineering student with hands-on experience in Python, machine learning, sensor data processing and feature engineering.</p>
+<div class="btns"><a class="btn p" href="mailto:lijo15nov@gmail.com">Email me</a><a class="btn" href="https://linkedin.com/in/lijo-l-v-484859271">LinkedIn</a><a class="btn" href="tel:+918973855137">Call +91 8973855137</a></div>
+</header>
+
+<section id="about">
+<h2>About</h2>
+<div class="cols">
+<p>I’m a final-year B.E. student in Electrical and Electronics Engineering at Rajalakshmi Engineering College, Thandalam. My work sits where hardware meets data: collecting sensor readings, cleaning them, engineering features and training models that run in real time.</p>
+<p>I enjoy applying data preprocessing, analysis and model-building skills to real-world problems, and I’m keen to keep learning through hands-on industry work.</p>
+</div>
+<p style="margin-top:1.5rem"><b>Education:</b> Bachelor of Engineering, Electrical and Electronics Engineering, 2023 – 2027. CGPA 7.58 (up to 6th semester).<br><b>Languages:</b> Tamil, English, Malayalam, Hindi.</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<article class="proj">
+<h3>TinyML-Enabled Predictive Maintenance for a Wind Turbine</h3>
+<ul>
+<li>Built a machine learning system for real-time fault classification on a small-scale wind turbine model, using vibration and acoustic data from an MPU6050 accelerometer and a microphone.</li>
+<li>Collected and preprocessed sensor data for simulated bearing wear, blade imbalance, misalignment and overspeed faults.</li>
+<li>Engineered time-domain features (RMS, kurtosis) and frequency-domain features (FFT, dominant harmonics) to separate the fault classes.</li>
+<li>Trained and deployed a quantized neural network on the device with TensorFlow Lite Micro / Edge Impulse. Alerts go out instantly through a buzzer, OLED and LoRa, with no cloud dependency.</li>
+</ul>
+<div class="tags"><span>Python</span><span>Feature engineering</span><span>FFT</span><span>Neural networks</span><span>Model quantization</span><span>Edge Impulse</span><span>ESP32</span></div>
+</article>
+<article class="proj">
+<h3>IoT-Enabled Hygiene Monitoring System (Machine Learning Based)</h3>
+<ul>
+<li>Developed a smart restroom monitoring system with multiple sensors on a microcontroller, with power backup for uninterrupted data collection.</li>
+<li>Collected environmental and usage parameters in real time and processed them to report restroom conditions.</li>
+<li>Analyzed the sensor readings and found that ventilation and environmental conditions affect the data.</li>
+</ul>
+<div class="tags"><span>IoT</span><span>Sensor data</span><span>Real-time acquisition</span><span>Data analysis</span></div>
+</article>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="cols">
+<div>
+<p class="skill"><b>Programming</b><span>Python, Embedded C, MATLAB</span></p>
+<p class="skill"><b>Data science and machine learning</b><span>Machine learning, neural networks, feature engineering, data preprocessing, signal processing (FFT), time- and frequency-domain analysis, model quantization</span></p>
+<p class="skill"><b>Tools and frameworks</b><span>TensorFlow Lite Micro, Edge Impulse</span></p>
+</div>
+<div>
+<p class="skill"><b>IoT and embedded</b><span>ESP32, Arduino, sensor integration, real-time data acquisition</span></p>
+<p class="skill"><b>Core engineering</b><span>Power systems, power electronics, control systems, electrical machines, renewable energy</span></p>
+<p class="skill"><b>Soft skills</b><span>Analytical thinking, problem solving, communication, teamwork, adaptability, willingness to learn</span></p>
+</div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience and certifications</h2>
+<div class="cols">
+<div class="job">
+<h3>Intern, Electrical Contracting</h3>
+<p class="meta">Covai Electricals, Guindy, Chennai</p>
+<ul>
+<li>Gained hands-on exposure to electrical erection and commissioning, panel and wiring systems, and compliance with CEIG and T.N.E.B. regulations while assisting the engineering and site execution team.</li>
+<li>Worked with engineers and site teams, followed technical documentation and safety standards, and completed assigned tasks on schedule.</li>
+</ul>
+</div>
+<div>
+<h3 style="font-size:1.3rem;margin-bottom:.5rem">Certifications</h3>
+<ul class="certs">
+<li>Electric Vehicle Technology, TVS Training and Services Ltd</li>
+<li>Education for Sustainable Development, NPTEL</li>
+<li>Automotive Starter Motor and Alternator System, Bosch</li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+
+<footer id="contact"><div class="wrap">
+<h2>Contact</h2>
+<p><a href="mailto:lijo15nov@gmail.com">lijo15nov@gmail.com</a><br><a href="tel:+918973855137">+91 8973855137</a><br>Kanyakumari, Tamil Nadu<br><a href="https://linkedin.com/in/lijo-l-v-484859271">linkedin.com/in/lijo-l-v-484859271</a></p>
+</div></footer>
+
+</body>
+</html>
